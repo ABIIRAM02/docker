@@ -13,7 +13,7 @@ function Create() {
     await createTask(newTask);
   }
 
-  return (
+  return(
     <main className="flex min-h-screen flex-col items-center p-24">
       <div className="flex flex-col gap-5 max-w-md w-full">
         <form
